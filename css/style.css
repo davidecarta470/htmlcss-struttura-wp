@@ -1,0 +1,62 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+
+}
+.global{
+  width:80%;
+  margin:20px auto;
+  
+}
+header,.jumbotron{
+  margin-bottom: 20px;
+}
+header{
+  height: 100px;
+  background-color: brown;
+}
+.jumbotron,footer{
+  border-radius: 10px;
+
+}
+.jumbotron{
+  height: 300px;
+  background-color: coral;
+}
+.clearfix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.conteiner{
+  background-color:darkblue;
+  margin-bottom:5px;
+}
+.top,aside,main{
+  background-color:darkcyan
+}
+.top
+{
+  height:50px;
+  margin-bottom: 20px;
+}
+aside,main{
+  margin-bottom:15px
+}
+aside{
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+main{
+  height: 200px;
+  width: 56%;
+  float: left;
+  margin: auto 2%;
+}
+footer
+{
+  height: 40px;
+  background-color:darkgreen
+}
