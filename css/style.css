@@ -1,3 +1,4 @@
+/* GLOBAL */
 *{
 padding: 0;
 margin: 0;
@@ -9,6 +10,17 @@ box-sizing:border-box;
   margin:20px auto;
   
 }
+.clearfix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+/* BORDER RADIUS */
+.jumbotron,footer{
+  border-radius: 10px;
+
+}
+/* MARGIN */
 header,.jumbotron{
   margin-bottom: 20px;
 }
@@ -16,23 +28,15 @@ header{
   height: 100px;
   background-color: brown;
 }
-.jumbotron,footer{
-  border-radius: 10px;
-
-}
 .jumbotron{
   height: 300px;
   background-color: coral;
-}
-.clearfix::after{
-  content:"";
-  display:table;
-  clear:both;
 }
 .conteiner{
   background-color:darkblue;
   margin-bottom:5px;
 }
+/* TOP ASIDE MAIN CHARACTERS */
 .top,aside,main{
   background-color:darkcyan
 }
@@ -55,6 +59,7 @@ main{
   float: left;
   margin: auto 2%;
 }
+/* FOOTER */
 footer
 {
   height: 40px;
